@@ -1,0 +1,39 @@
+{
+  "name": "imgminify",
+  "version": "1.0.0",
+  "description": "Minify images",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuwu8ku/imgminify.git"
+  },
+  "author": {
+    "name": "xhpu",
+    "email": "wuwu8ku@163.com",
+    "url": "https://github.com/wuwu8ku"
+  },
+  "keywords": [
+    "compress",
+    "gif",
+    "image",
+    "jpeg",
+    "minify",
+    "png",
+    "svg"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "stream-combiner": "^0.2.1",
+    "vinyl": "^0.4.3",
+    "vinyl-fs": "^0.3.7",
+    "through2": "^0.6.1",
+    "rimraf": "^2.2.8",
+    "tempfile": "^1.1.0",
+    "is-jpg": "^1.0.0",
+    "is-gif": "^1.0.0",
+    "is-png": "^1.0.0",
+    "is-svg": "^1.0.0",
+    "exec-buffer": "^1.0.0",
+    "svgo": "^0.4.5"
+  }
+}
