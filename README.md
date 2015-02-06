@@ -1,3 +1,5 @@
+修改自[https://github.com/imagemin/imagemin](https://github.com/imagemin/imagemin)
+
 ```
 var ImgMinify = require('imgminify');
 
