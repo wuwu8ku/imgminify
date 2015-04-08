@@ -1,6 +1,6 @@
 {
   "name": "imgminify",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Minify images",
   "license": "MIT",
   "repository": {
@@ -23,17 +23,19 @@
   ],
   "dependencies": {
     "concat-stream": "^1.4.6",
-    "stream-combiner": "^0.2.1",
-    "vinyl": "^0.4.3",
-    "vinyl-fs": "^0.3.7",
-    "through2": "^0.6.1",
-    "rimraf": "^2.2.8",
-    "tempfile": "^1.1.0",
-    "is-jpg": "^1.0.0",
+    "exec-buffer": "^1.0.0",
+    "get-stdin": "^4.0.1",
     "is-gif": "^1.0.0",
+    "is-jpg": "^1.0.0",
     "is-png": "^1.0.0",
     "is-svg": "^1.0.0",
-    "exec-buffer": "^1.0.0",
-    "svgo": "^0.4.5"
+    "meow": "^3.1.0",
+    "rimraf": "^2.2.8",
+    "stream-combiner": "^0.2.1",
+    "svgo": "^0.4.5",
+    "tempfile": "^1.1.0",
+    "through2": "^0.6.1",
+    "vinyl": "^0.4.3",
+    "vinyl-fs": "^0.3.7"
   }
 }
